@@ -10,4 +10,6 @@ func main() {
 	var u uint = uint(f)
 
 	fmt.Println(i, f, u)
+
+	fmt.Printf("Type of u is %T\n", u)
 }
